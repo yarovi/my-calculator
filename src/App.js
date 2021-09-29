@@ -17,7 +17,6 @@ class App extends Comment {
     );
   }
 }
-
 class LearningComponents extends Component{
   render (){
     return (
