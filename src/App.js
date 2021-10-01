@@ -3,15 +3,16 @@ import './App.css';
 
 import React,{Component} from 'react';
 import FirstComponent from './components/FirstComponent'
-import SecondComponent from './components/SecondComponent/'
+import SecondComponent from './components/SecondComponent'
 import ThirdComponent from './components/ThirdComponent'
 
 import Counter from './components/counter/counter'
 
-class App extends Comment {
+class App extends Component {
   render (){
     return (
       <div className="App" >
+        <Counter></Counter>
         <LearningComponents></LearningComponents>
       </div>
     );

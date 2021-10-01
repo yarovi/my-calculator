@@ -4,8 +4,8 @@ import React, {Component} from "react";
 class SecondComponent extends Component {
     render () {
         return (
-            <div className="secondComponent">
-                SecondComponent
+            <div className="SecondComponent">
+                Second Component
             </div>
         )
     }
