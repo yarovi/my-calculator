@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App" >
         <Counter></Counter>
-        <LearningComponents></LearningComponents>
+        {/* <LearningComponents></LearningComponents> */}
       </div>
     );
   }
