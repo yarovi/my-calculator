@@ -12,7 +12,8 @@ class App extends Component {
   render (){
     return (
       <div className="App" >
-        <Counter></Counter>
+        <Counter by></Counter>
+
         {/* <LearningComponents></LearningComponents> */}
       </div>
     );
